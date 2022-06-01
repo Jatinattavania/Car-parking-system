@@ -1,0 +1,198 @@
+/* .ooo{
+    background: url(https://burst.shopifycdn.com/photos/blue-water-and-white-cliffs-surrounded-by-trees.jpg?width=925&format=pjpg&exif=1&iptc=1) no-repeat;
+    background-size: cover;
+} */
+
+/* .first-div{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    position: absolute ;
+    margin: 0 100px 100px 100px;
+} */
+
+/* .second-div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative ;
+    margin-left: 30px;
+}    
+    */
+body{
+   margin: 0px;
+    top: 0%;
+    
+} 
+
+/* h1{
+    font-family: 'Cedarville Cursive', cursive;
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* position: relative; */
+    /* margin-bottom: 350px; */
+/* } */
+/* 
+p{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+} */
+
+/* Sections */
+.section-1{
+    height: 300px;
+    background-color: darkgray;
+}
+
+.cls-sec{
+    background-color: darkgoldenrod;
+    height: 400px;
+}
+
+.div-img{
+    border-radius: 25px;
+    position: relative;
+    top:70px;
+    left:50px;
+}
+
+/* bottons */
+.button1{
+    left: 20%;
+    bottom: 60px;
+    position: relative;
+    
+}
+.button2{
+    left:21%;
+    bottom: 60px;
+    position: relative;
+}
+.button3{
+    left:22%;
+    bottom: 60px;
+    position: relative;
+}
+.button4{
+    left:23%; 
+    bottom: 60px;
+    position: relative;
+}
+.button5{
+    left: 24%;
+    bottom: 60px;
+    position: relative;
+}
+/* Footer */
+footer{
+    background-color:#97C4B8;
+    position: relative;
+    top: 321px;
+}
+
+/* caraousal */
+.carousel { 
+    width:500px;
+    height:200px;
+    position: relative;
+    left: 35%; 
+    background-color: #FFD9C0;
+}
+
+.logo_name{
+    color: blue;
+}
+
+/* .top-container{
+    background-color:aqua;
+    width: 1860px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px ;
+    border: solid 10px ;
+    /* display: inline-block; */
+  
+/* } */
+
+
+
+/* .middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px 0px 0px 40px;
+    border: solid 10px ;
+    display: inline-block;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-left: 410px;
+    border: solid 10px ;
+    display: inline-block;
+    position: relative; */
+    
+    
+/* } */
+
+
+
+.class1{
+    margin: 100px;
+}
+    @media screen and (max-width: 500px) {
+    .class-test{
+        width: 70% 
+    }
+}
+
+
+
+  li a {text-decoration : none; color : #2d2f31;}
+
+  .slide {
+      list-style-type: none;
+      padding-left: 0;
+      padding-top: 10px;
+  }
+
+
+  nav {
+    margin : 40px auto; 
+  }
+  
+  #dropper-title {
+    color : white;
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: block;
+  }
+  
+  .slide {
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+  }
+  
+  .slide li {
+      text-align: left;
+  }
+  
+  #touch {position: absolute; opacity: 0; height: 0px;}    
+  
+  #touch:checked + .slide {height: 150px;}
