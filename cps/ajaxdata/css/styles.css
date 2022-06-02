@@ -331,7 +331,9 @@ a.label:hover, a.label:focus {
   border: 0; }
 
 .panel-container {
-  padding-top: 20px; }
+  padding-top: 20px;
+  width:1560px;   /* added */
+}
 
 .panel-heading .fa-toggle-up, .panel-heading .fa-toggle-down {
   font-size: 17px; }
