@@ -23,7 +23,7 @@
    </head>
    <body>
 
-   <div class="col-sm-12 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+<!--    <div class="col-sm-12 col-sm-offset-3 col-lg-10 col-lg-offset-2 main"> -->
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard.php">
