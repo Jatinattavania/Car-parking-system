@@ -1,0 +1,21 @@
+h1{
+    display: inline;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+input{
+    display: inline-block;
+    position: relative;
+    left: 1500px;
+}
+
+first-div{
+    position: relative;
+    display: inline-block;
+    left: 10px;
+}
+
