@@ -6,7 +6,7 @@
      else{
         session_destroy();
         //redirect
-        header("Location: ");
+        header("Location:http:cps/Login.php");
         exit;
         echo 'user not found '; 
     }

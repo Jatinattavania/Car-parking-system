@@ -331,9 +331,7 @@ a.label:hover, a.label:focus {
   border: 0; }
 
 .panel-container {
-  padding-top: 20px;
-  width:1560px;   /* added */
-}
+  padding-top: 20px; }
 
 .panel-heading .fa-toggle-up, .panel-heading .fa-toggle-down {
   font-size: 17px; }
@@ -868,9 +866,7 @@ a.label:hover, a.label:focus {
   padding: 10px 15px 10px 15px;
   background: #e9ecf2;
   margin: 0; }
-.breadcrumb-row{    /* added*/
-  width: 1570px;
-}
+
 h1.page-header {
   margin-top: 20px;
   border-bottom: 0; }

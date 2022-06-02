@@ -1,7 +1,7 @@
 <?php
   session_start();
   if(isset($_SESSION["user"])){
-    //header("Location: http://localhost/");
+    header("Location: http://localhost/ajaxdata/index.html");
     exit;
   }
 ?>

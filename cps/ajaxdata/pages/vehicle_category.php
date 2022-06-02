@@ -2,7 +2,7 @@
     session_start();
     error_reporting(0);
     include('../includes/dbconn.php');
-    if (strlen($_SESSION['users']=="Jatin attavania")) {
+    if (($_SESSION['user']!="jatin")) {
         header('../location:logout.php');
         } else 
 ?>
@@ -23,14 +23,6 @@
    </head>
    <body>
 
-<!--    <div class="col-sm-12 col-sm-offset-3 col-lg-10 col-lg-offset-2 main"> -->
-		<div class="row">
-			<ol class="breadcrumb">
-				<li><a href="dashboard.php">
-					<em class="fa fa-home"></em>
-				</a></li>
-				<li class="active">Vehicle Category Management</li>
-			</ol>
       <div class="row">
       <div class="col-lg-12">
       <div class="panel panel-default">

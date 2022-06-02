@@ -59,30 +59,29 @@
                      ?>
 
                      <p style="color:red;"></p>
-                     <div class="col-lg-11">
+                     <div class="col-lg-6">
                         <label>Name</label>
                         <input type="text" class="form-control" value="" name="Name" required>
                      </div>
                   </div>
-                  <div class="col-lg-11">
+                  <div class="col-lg-6">
                      <div class="form-group">
                         <label>Email</label>
                         <input type="email" class="form-control" value="" name="Email" required>
                      </div>
                   </div>
-                  <div class="col-lg-11">
+                  <div class="col-lg-6">
                      <div class="form-group">
                         <label>Phoneno</label>
                         <input type="text" class="form-control" name="Phoneno" value="" required>
                      </div>
                   </div>
-                  <div class="col-lg-11">
+                  <div class="col-lg-6">
                      <div class="form-group">
                         <label>Address</label>
                         <input type="address" class="form-control" name="Address" value="" required="true">
                      </div>
                   </div>
-                  <br><br>
                   <center>
                      <button type="submit" class="btn btn-info" name="set-settings">Make Changes</button>
                   </center>

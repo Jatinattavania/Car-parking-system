@@ -3,7 +3,7 @@
     error_reporting(0);
     include('../includes/dbconn.php');
 
-    if (strlen($_SESSION['user']!="jatin")) {
+    if (($_SESSION['user']!="jatin")) {
    	header('location:logout.php');
     } else{
 
