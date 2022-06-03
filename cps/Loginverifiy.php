@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
           $_SESSION["user"]= $username;
           $_SESSION["start"]= time();
           $_SESSION["expire"]= time()+(12*60*60);
-         header("Location: http://localhost//cps//ajaxdata//index.html");
+         header("Location: /Car-parking-system/cps/ajaxdata/index.php");
          exit;
           }
           else{

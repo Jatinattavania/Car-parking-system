@@ -1,51 +1,12 @@
-/* .ooo{
-    background: url(https://burst.shopifycdn.com/photos/blue-water-and-white-cliffs-surrounded-by-trees.jpg?width=925&format=pjpg&exif=1&iptc=1) no-repeat;
-    background-size: cover;
-} */
 
-/* .first-div{
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    background-position: center;
-    position: absolute ;
-    margin: 0 100px 100px 100px;
-} */
-
-/* .second-div{
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: relative ;
-    margin-left: 30px;
-}    
-    */
 body{
    margin: 0px;
     top: 0%;
     
 } 
 
-/* h1{
-    font-family: 'Cedarville Cursive', cursive;
-    /* text-align: center; */
-    /* display: inline-block; */
-    /* position: relative; */
-    /* margin-bottom: 350px; */
-/* } */
-/* 
-p{
-    margin: 0px;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Cedarville Cursive', cursive;
-    text-align: center;
-    position: relative;
-    display: inline-block;
 
-} */
 
-/* Sections */
 .section-1{
     height: 300px;
     background-color: darkgray;
@@ -63,7 +24,7 @@ p{
     left:50px;
 }
 
-/* bottons */
+
 .button1{
     left: 20%;
     bottom: 60px;
@@ -90,14 +51,14 @@ p{
     bottom: 60px;
     position: relative;
 }
-/* Footer */
+
 footer{
     background-color:#97C4B8;
     position: relative;
     top: 321px;
 }
 
-/* caraousal */
+
 .carousel { 
     width:500px;
     height:200px;
@@ -109,43 +70,6 @@ footer{
 .logo_name{
     color: blue;
 }
-
-/* .top-container{
-    background-color:aqua;
-    width: 1860px;
-    height: 100px;
-    padding: 20px;
-    margin: 10px ;
-    border: solid 10px ;
-    /* display: inline-block; */
-  
-/* } */
-
-
-
-/* .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: bisque;
-    padding: 20px;
-    margin: 10px 0px 0px 40px;
-    border: solid 10px ;
-    display: inline-block;
-}
-
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: cadetblue;
-    padding: 20px;
-    margin-left: 410px;
-    border: solid 10px ;
-    display: inline-block;
-    position: relative; */
-    
-    
-/* } */
-
 
 
 .class1{

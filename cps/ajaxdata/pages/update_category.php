@@ -15,7 +15,7 @@
         $query=mysqli_query($con, "UPDATE vcategory set VehicleCat='$catname' where ID='$eid'");
         if ($query) {
         $msg="Category has been updated.";
-        header('location:/cps/ajaxdata/index.html');
+        header('location:/cps/ajaxdata/index.php');
     }
     else
         {

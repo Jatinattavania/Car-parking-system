@@ -18,7 +18,7 @@
 		$query=mysqli_query($con, "INSERT into vehicle_info(ParkingNumber,VehicleCategory,VehicleCompanyname,RegistrationNumber,OwnerName,OwnerContactNumber) value('$parkingnumber','$catename','$vehcomp','$vehreno','$ownername','$ownercontno')");
 		if ($query) {
 			echo "<script>alert('Vehicle Entry Detail has been added');</script>";
-			echo "<script>window.location.href ='../index.html'</script>";
+			echo "<script>window.location.href ='../index.php'</script>";
 		} else {
 			echo "<script>alert('Something Went Wrong');</script>";       
 		}

@@ -16,7 +16,7 @@
         if ($query) {
         $msg="Category has been added";
     
-        header('location:/cps/ajaxdata/index.html');
+        header('location:/cps/ajaxdata/index.php');
         exit;
     }
     else
