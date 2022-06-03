@@ -27,7 +27,7 @@ if (($_SESSION['user']!="jatin")) {
 		</div>
 		
 		<div class="panel panel-container">
-			<div class="row">
+			<div class="row breadcrumb-row">
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
 					<div class="panel panel-teal panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-car color-blue"></em>
