@@ -93,7 +93,7 @@ include('../Checksession.php')
              
              </nav> 
          </div>      
-         <div id="page" class="col-md-10"></div>   //MODIFIED
+         <div id="page" class="col-md-10"></div>  /*col-md-9 changed to col-md-10*/
       </div>
   </body>
 
