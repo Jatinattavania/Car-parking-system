@@ -867,7 +867,7 @@ a.label:hover, a.label:focus {
   background: #e9ecf2;
   margin: 0; }
 .breadcrumb-row{         /*Added*/ 
-  width: 1570px;
+  max-width: 100%;
 }
 
   h1.page-header {
