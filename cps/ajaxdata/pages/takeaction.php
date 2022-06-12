@@ -13,14 +13,20 @@
         $query=mysqli_query($con, "SELECT status from vehicle_info where ID='$cid'");
         if (mysqli_num_rows($query)> 0){
             $row= mysqli_fetch_assoc($query)
-            echo $row["status"]
+            if ($row["status"]=="")
+            {
+                $status="Out";
+            }
+            // echo $row["status"];
         }
-       // $query=mysqli_query($con, "UPDATE vehicle_info set Remark='NA',Status='$status',ParkingCharge='$parkingcharge' where ID='$cid'");
-        // if ($query) {
-        //     $msg="All remarks has been updated.";
-        // } else {
-        //     $msg="Something Went Wrong";
-        // }
+       $query=mysqli_query($con, "UPDATE vehicle_info set Remark='NA',Status='$status',ParkingCharge='50' where ID='$cid'");
+        if ($query) {
+            $msg="All remarks has been updated.";
+            header('location:/cps/ajaxdata/index.php');
+            exit;
+        } else {
+            $msg="Something Went Wrong";
+        }
 
     }
    }  
