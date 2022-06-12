@@ -1,5 +1,5 @@
 <?php
-    $con=mysqli_connect("localhost", "root", "", "parking system");
+    $con=mysqli_connect("localhost", "jatin", "secretpass", "parkingsystem");
     if(mysqli_connect_errno()){
     echo "Connection Fail".mysqli_connect_error();
     }
