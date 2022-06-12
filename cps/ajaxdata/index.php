@@ -88,7 +88,7 @@ include('../Checksession.php')
                   <li><a class="page7 text-white" href="#">Change password</a></li>
                   <li><a class="page8 text-white" href="#">Settings</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="text-white" href="/cps/Logout.php">Log out</a></li>
+                  <li><a class="text-white" href="/Car-parking-system/cps/Logout.php">Log out</a></li>
                </ul>
              
              </nav> 
