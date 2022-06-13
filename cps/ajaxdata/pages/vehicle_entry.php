@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	error_reporting(1);
+	error_reporting(0);
 	include('../includes/dbconn.php');
 	if (($_SESSION['user']!="jatin")) {
 	header('location:logout.php');
@@ -13,14 +13,15 @@
 		$vehreno=$_POST['vehreno'];
 		$ownername=$_POST['ownername'];
 		$ownercontno=$_POST['ownercontno'];
-		$enteringtime=$_POST['enteringtime'];
-			
-		$query=mysqli_query($con, "INSERT into vehicle_info(ParkingNumber,VehicleCategory,VehicleCompanyname,RegistrationNumber,OwnerName,OwnerContactNumber) value('$parkingnumber','$catename','$vehcomp','$vehreno','$ownername','$ownercontno')");
+		$parkingCharge=0;
+		
+		$query=mysqli_query($con, "INSERT into `vehicle_info`(ParkingNumber,VehicleCategory,VehicleCompanyname,RegistrationNumber,OwnerName,OwnerContactNumber,ParkingCharge,Remark,Status) value('$parkingnumber','$catename','$vehcomp','$vehreno','$ownername','$ownercontno','$parkingCharge','NA','')");
+
 		if ($query) {
 			echo "<script>alert('Vehicle Entry Detail has been added');</script>";
 			echo "<script>window.location.href ='../index.php'</script>";
 		} else {
-			echo "<script>alert('Something Went Wrong');</script>";       
+			echo "<script>alert('$query');</script>";       
 		}
 	}
   ?>
