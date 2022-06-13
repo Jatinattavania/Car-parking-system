@@ -63,7 +63,7 @@
             <td><?php  echo $row['OwnerName'];?></td>
             
             
-            <td><a href="../pages/takeaction.php?updateid=<?php echo $row['ID'];?>"><button type="button class+btn btn-sm btn-danger">Take action</button></a>
+	    <td><a href="../ajaxdata/pages/takeaction.php?updateid=<?php echo $row['ID'];?>"><button type="button class+btn btn-sm btn-danger">Take action</button></a>
             </td>
             
             </tr>

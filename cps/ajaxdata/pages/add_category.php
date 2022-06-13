@@ -16,7 +16,7 @@
         if ($query) {
         $msg="Category has been added";
     
-        header('location:/cps/ajaxdata/index.php');
+        header('location:/Car-parking-system/cps/ajaxdata/index.php');
         exit;
     }
     else
